@@ -12,6 +12,11 @@
       "name": "system-check",
       "source": "./plugins/system-check",
       "description": "Quick health check of the local development environment — memory, load, disk, Claude processes — bundled with cleanup-claude-procs for escalation when stray Claude sessions are detected."
+    },
+    {
+      "name": "pushover",
+      "source": "./plugins/pushover",
+      "description": "Send push notifications to phone/desktop via the Pushover API using a bundled bash helper. Reads credentials from PUSHOVER_TOKEN / PUSHOVER_USER env vars."
     }
   ]
 }
