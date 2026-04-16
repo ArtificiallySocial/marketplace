@@ -1,0 +1,8 @@
+{
+  "name": "pushover",
+  "version": "0.1.0",
+  "description": "Send push notifications to phone/desktop via the Pushover API using a bundled bash helper. Reads credentials from PUSHOVER_TOKEN / PUSHOVER_USER env vars.",
+  "author": {
+    "name": "ArtificiallySocial"
+  }
+}
