@@ -1,0 +1,17 @@
+{
+  "name": "marketplace",
+  "owner": {
+    "name": "ArtificiallySocial"
+  },
+  "metadata": {
+    "description": "Skills and plugins published by the ArtificiallySocial org.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "system-check",
+      "source": "./plugins/system-check",
+      "description": "Quick health check of the local development environment — memory, load, disk, Claude processes — and auto-invoke cleanup-claude-procs if signs of leftover Claude sessions are detected."
+    }
+  ]
+}

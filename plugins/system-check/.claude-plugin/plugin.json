@@ -1,0 +1,8 @@
+{
+  "name": "system-check",
+  "version": "0.1.0",
+  "description": "Quick health check of the local development environment — memory, load, disk, Claude processes — and auto-invoke cleanup-claude-procs if signs of leftover Claude sessions are detected.",
+  "author": {
+    "name": "ArtificiallySocial"
+  }
+}
