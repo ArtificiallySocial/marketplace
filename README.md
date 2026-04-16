@@ -13,7 +13,7 @@ Skills and plugins published by the **ArtificiallySocial** organization for [Cla
 
 | Plugin | Description |
 |--------|-------------|
-| [`system-check`](plugins/system-check) | Quick health check of the local development environment — memory, load, disk, Claude processes — and auto-invoke `cleanup-claude-procs` if stray Claude sessions are detected. |
+| [`system-check`](plugins/system-check) | Quick health check of the local development environment — memory, load, disk, Claude processes. Bundles `cleanup-claude-procs` for escalation when stray Claude sessions are detected. |
 
 ## Layout
 
