@@ -68,7 +68,7 @@ Use a compact, scannable format:
 ```
 SYSTEM CHECK — 2026-04-15 09:31
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-IP:      192.168.1.174
+IP:      192.168.1.100
 Memory:  3.0 GiB available / 4.0 GiB total    [OK]
 Swap:    640 MiB / 2.0 GiB used               [OK]
 Load:    0.23 0.10 0.03 (4 cores)             [OK]
@@ -98,7 +98,7 @@ Depending on findings, suggest:
 
 ## Notes
 
-- Runs on a 4 GB Raspberry Pi 5 by default; thresholds are tuned for low-memory hosts.
+- Thresholds are tuned for low-memory hosts (4 GB RAM default).
 - Never kills anything on its own — escalation to `/cleanup-claude-procs` still goes through that skill's own confirmation flow.
 - If `pgrep` shows Claude procs but they all belong to the *current* session (check PPID chain via `pstree`), don't count them as stray.
 - Keep the report to one screen. Verbose mode (`--verbose`) may add per-process detail and full `df` output.

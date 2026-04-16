@@ -84,7 +84,7 @@ Show a table: PID | PPID | Age | Category | Command (truncated). Example:
 
 ```
 PID     PPID  AGE    CATEGORY        COMMAND
-12345   1     2h14m  claude-orphan   node /home/brent/.nvm/.../claude-code
+12345   1     2h14m  claude-orphan   node /home/user/.nvm/.../claude-code
 12892   1     47m    playwright      chromium --headless --remote-debugging-port=...
 13044   1     3h01m  bg-shell        /bin/bash -c 'npm run test:e2e'
 ```
