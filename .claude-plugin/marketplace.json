@@ -17,11 +17,6 @@
       "name": "pushover",
       "source": "./plugins/pushover",
       "description": "Send push notifications to phone/desktop via the Pushover API using a bundled bash helper. Reads credentials from PUSHOVER_TOKEN / PUSHOVER_USER env vars."
-    },
-    {
-      "name": "kitty-cli-display-image",
-      "source": "./plugins/kitty-cli-display-image",
-      "description": "Display an image in the terminal via the Kitty graphics protocol — fixed overlay window, sized to the terminal with borders, dismissible with any key or --dismiss."
     }
   ]
 }

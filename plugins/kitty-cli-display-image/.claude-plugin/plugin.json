@@ -1,8 +1,0 @@
-{
-  "name": "kitty-cli-display-image",
-  "version": "0.1.1",
-  "description": "Display an image in the terminal via the Kitty graphics protocol — fixed overlay window, sized to the terminal with borders, dismissible with any key or --dismiss.",
-  "author": {
-    "name": "ArtificiallySocial"
-  }
-}
